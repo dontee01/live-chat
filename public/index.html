@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>InboxPlus</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <ul class="pages">
+    <li id="chat-page" class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li id="login-page" class="login page">
+      <div class="form">
+        <h3 class="title">Enter screen name</h3>
+
+      <form action="">
+        <input class="usernameInput" type="text" maxlength="14" />
+      <input id="login-btn" type="submit" value="Login">
+      </form>
+      </div>
+    </li>
+  </ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script> -->
+    <!-- <script src="http://code.jquery.com/jquery-1.11.1.js"></script> -->
+  </body>
+</html>
