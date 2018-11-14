@@ -4,12 +4,6 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 var mysql = require('mysql');
-// var connection = mysql.createConnection({
-//   host     : 'bbnlab.tech',
-//   user     : 'bbnlab_john',
-//   password : 'greatnesS01',
-//   database: 'bbnlab_inboxplus'
-// });
 
 // connection.connect();
 
