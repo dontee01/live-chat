@@ -40,14 +40,6 @@ function initializeConnection(config) {
 
 
 
-// var connection = initializeConnection({
-//   host     : 'bbnlab.tech',
-//   user     : 'bbnlab_john',
-//   password : 'greatnesS01',
-//   database: 'bbnlab_inboxplus'
-// });
-
-
 var connection = initializeConnection({
   host     : 'localhost',
   user     : 'root',
